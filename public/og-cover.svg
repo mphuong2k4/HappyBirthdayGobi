@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><radialGradient id="bg"><stop stop-color="#352263"/><stop offset=".48" stop-color="#171025"/><stop offset="1" stop-color="#0b0914"/></radialGradient><linearGradient id="text" x2="1"><stop stop-color="#f6dc9d"/><stop offset=".5" stop-color="#f2b6d5"/><stop offset="1" stop-color="#c9b8ff"/></linearGradient></defs>
+  <rect width="1200" height="630" fill="url(#bg)"/><rect x="28" y="28" width="1144" height="574" rx="42" fill="none" stroke="#fff" stroke-opacity=".12"/>
+  <g fill="#fff" opacity=".55"><circle cx="135" cy="125" r="2"/><circle cx="1040" cy="150" r="3"/><circle cx="970" cy="490" r="2"/><circle cx="220" cy="510" r="2"/></g>
+  <text x="600" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" letter-spacing="8" fill="#c9b8ff">A LITTLE UNIVERSE FOR YOU</text>
+  <text x="600" y="360" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="150" fill="url(#text)">Gobi</text>
+  <text x="600" y="455" text-anchor="middle" font-family="Georgia,serif" font-style="italic" font-size="48" fill="#fff">Happy Birthday ✦</text>
+  <text x="600" y="530" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" letter-spacing="7" fill="#fff" opacity=".4">TODAY IS YOUR DAY</text>
+</svg>
