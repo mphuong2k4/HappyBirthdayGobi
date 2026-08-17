@@ -98,4 +98,96 @@
 .gallery-end-note span{font-size:21px}
 @media(max-width:760px){.gallery-end-note{gap:10px;margin-top:35px;padding-inline:8px}.gallery-end-note p{font-size:1.25rem}.gallery-end-note span{font-size:16px}}
 
+/* Mobile polish: comfortable type, natural photos, safe spacing and restrained decoration. */
+@media(max-width:760px){
+  html{-webkit-text-size-adjust:100%;scroll-padding-top:76px}
+  body{overscroll-behavior-y:none}
+  .intro{padding-right:max(20px,env(safe-area-inset-right));padding-left:max(20px,env(safe-area-inset-left))}
+  .intro>div.relative{width:100%;max-width:34rem}
+  .intro h1{font-size:clamp(2.15rem,10.4vw,3rem);line-height:1.04;letter-spacing:-.035em}
+  .gift-button{min-height:52px;margin-top:2rem;padding:13px 22px}
+
+  .sample-nav{top:max(8px,env(safe-area-inset-top));width:calc(100vw - 24px);min-height:56px;padding:5px 11px;border-radius:30px}
+  .nav-brand{flex:0 0 auto;gap:0}
+  .nav-cake{font-size:25px}
+  .nav-text-links{min-width:0;gap:5px}
+  .nav-text-links a{display:grid;min-height:40px;place-items:center;padding:0 7px;font-size:8px;letter-spacing:.08em}
+
+  .sample-hero{padding:92px max(18px,env(safe-area-inset-right)) 58px max(18px,env(safe-area-inset-left))}
+  .hero-copy-new{padding-top:24px;overflow:visible}
+  .hero-script-kicker{font-size:1.25rem}
+  .hero-copy-new .hero-message-title{max-width:100%;font-size:clamp(2.15rem,9.3vw,2.65rem);line-height:.88;letter-spacing:-.035em}
+  .hero-message-title span,.hero-message-title em{white-space:nowrap}
+  .hero-copy-new .hero-message-title em{margin-top:.12em}
+  .hero-wish{margin-top:24px;font-size:.94rem;line-height:1.7}
+  .surprise-button{min-height:52px;margin-top:22px;padding:13px 20px;font-size:12px}
+  .mini-wish-card{grid-template-columns:44px minmax(0,1fr);gap:12px;margin-top:36px;padding:18px 16px;border-right-width:5px;border-radius:19px}
+  .mini-gift{width:44px;height:44px;font-size:22px}
+  .mini-wish-card strong{font-size:10.5px;line-height:1.45}
+  .mini-wish-card p,.mini-wish-card span{font-size:11px;line-height:1.6}
+  .mini-wish-card span{margin-top:10px;padding-top:8px}
+  .hero-collage{min-height:590px;margin-top:44px}
+  .main-polaroid{left:2%;width:86%;aspect-ratio:4/5;border-width:9px;border-bottom-width:14px}
+  .small-polaroids{right:1%;bottom:8px;left:1%;gap:7px}
+  .small-polaroids figure{width:31%;border-width:6px;border-bottom-width:18px}
+  .balloon-cluster,.wish-photo-balloons{display:none}
+  .amazing-badge{right:0;top:52%;width:88px;border-width:6px}
+  .amazing-badge span{font-size:12px}.amazing-badge strong{font-size:15px}
+
+  .wishes-reference{padding:88px max(18px,env(safe-area-inset-right)) 68px max(18px,env(safe-area-inset-left))}
+  .wishes-reference-copy h2{max-width:100%;font-size:clamp(2.65rem,11vw,3.35rem);line-height:.9}
+  .wishes-reference-copy h2 em{white-space:normal}
+  .wishes-reference-copy>span{margin-top:24px;font-size:13px;line-height:1.75}
+  .wishes-reference-photo{height:430px;margin-top:44px}
+  .wishes-reference-photo figure{left:0;width:82%;max-width:330px;aspect-ratio:4/5;border-width:9px;border-bottom-width:14px}
+  .wish-photo-note{right:0;bottom:7%;width:104px;border-width:7px;padding:16px 5px 12px;font-size:16px}
+  .wish-photo-note em{font-size:22px}
+  .wish-card-grid{gap:15px}
+  .soft-wish-card{min-height:180px;padding:22px 22px 20px 94px;border-radius:22px}
+  .wish-emoji{left:20px;top:21px;width:56px;height:56px;font-size:25px}
+  .soft-wish-card h3{margin-top:17px;font-size:25px}
+  .soft-wish-card p{margin-top:19px;font-size:12px;line-height:1.75}
+  .quote-ribbon{gap:0;margin-top:30px;padding-top:22px}
+  .quote-ribbon p{font-size:1.25rem;line-height:1.4}
+
+  .warm-section{padding:88px max(18px,env(safe-area-inset-right))}
+  .warm-heading h2,.surprise-title h2{font-size:clamp(2.85rem,13vw,3.55rem);line-height:.9;overflow-wrap:break-word}
+  .gallery-heading h2 em{margin-top:.25em;line-height:1}
+  .polaroid-wall{gap:46px;margin-top:46px;padding-bottom:18px}
+  .wall-photo{align-self:auto!important;width:100%!important;transform:rotate(-.6deg)!important}
+  .wall-photo:nth-child(even){transform:rotate(.6deg)!important}
+  .wall-photo figure{border-width:8px;border-bottom-width:62px}
+  .wall-photo figcaption{right:7px;bottom:-52px;left:7px;align-items:flex-end;gap:8px;font-size:14px;line-height:1.25}
+  .wall-photo figcaption span{min-width:0;overflow-wrap:anywhere}
+  .wall-photo figcaption svg{flex:0 0 auto;margin-bottom:2px}
+  .gallery-note{position:relative;left:auto;top:auto;width:min(220px,80vw);align-self:center;transform:rotate(-3deg);padding:18px 22px;font-size:18px}
+  .gallery-end-note{margin-top:30px;padding:20px 4px}
+
+  .surprise-new{min-height:100svh;padding:92px max(18px,env(safe-area-inset-right)) 110px max(18px,env(safe-area-inset-left))}
+  .gift-box-button{width:230px;height:250px;margin-top:40px}
+  .gift-base{width:168px;height:130px}.gift-base::before{height:130px}.gift-lid{bottom:117px;width:194px}
+  .surprise-letter{width:100%;margin-top:42px;padding:28px 20px;border-width:8px;box-shadow:8px 10px 0 #ffd36e,0 18px 42px rgba(84,54,36,.13)}
+  .letter-top{font-size:2.15rem}
+  .surprise-letter>p{font-size:13.5px;line-height:1.82}
+  .surprise-letter blockquote{margin-top:24px;padding-left:14px;font-size:1.45rem;line-height:1.25}
+  .surprise-letter footer{font-size:1.5rem}
+  .surprise-balloons{display:none}
+
+  .warm-finale{min-height:100svh;padding:90px max(20px,env(safe-area-inset-right)) max(44px,env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left))}
+  .warm-finale::after{inset:12px;border-radius:26px}
+  .final-cake{gap:14px;font-size:50px}
+  .warm-finale h2{font-size:clamp(4.2rem,19vw,5.2rem);line-height:.8}
+  .final-message{margin-top:30px;font-size:13.5px;line-height:1.8}
+  .final-signoff{position:relative;bottom:auto;margin-top:48px}
+  .music-control{right:max(10px,env(safe-area-inset-right));bottom:max(10px,env(safe-area-inset-bottom));height:44px;padding-right:12px;padding-left:12px}
+  .soft-wish-card:hover,.surprise-button:hover,.gift-box-button:hover,.gift-button:hover{transform:none}
+}
+@media(max-width:374px){
+  .nav-text-links a{padding-inline:5px;font-size:7.5px}
+  .hero-copy-new .hero-message-title{font-size:2.08rem}
+  .wishes-reference-copy h2{font-size:2.65rem}
+  .warm-heading h2,.surprise-title h2{font-size:2.8rem}
+  .soft-wish-card{padding-left:88px}
+}
+
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
